@@ -408,8 +408,11 @@ li {
   .expertise__description {
     padding-top: 25rem;
   }
-  #gallery {
-    flex-direction: row;
+  .gallery_mobile {
+    display: flex;
+  }
+  .gallery {
+    display: none;
   }
 }
 
@@ -420,4 +423,11 @@ li {
   .nav__hamburger {
     display: none;
   }
+  .gallery_mobile {
+    display: none;
+  }
+  .gallery {
+    display: flex;
+  }
+
 }
