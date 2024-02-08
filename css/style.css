@@ -358,6 +358,13 @@ li {
 .footer__item:hover {
   color: var(--white-color) !important;
 }
+.ulbouton {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  padding-left: 650px;
+} 
+
 
 /* ------------------ Responsive ---------------------  */
 
@@ -409,6 +416,9 @@ li {
   .expertise__description {
     padding-top: 25rem;
   }
+  .about__description {
+    text-align: center;
+  }
   .gallery__mobile {
     display: flex;
   }
@@ -443,7 +453,50 @@ li {
     text-align: center;
     margin: 3rem 0;
     padding-right: 190px;
+  } 
+  .ulbouton {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-left: 100px;
+  } 
+}
+
+@media screen and (max-width: 1190px) {
+  .expertise__description {
+    padding-top: 50rem;
+  }
+.testimonies__container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  }
+  .footer {
+    background-color: #90d4c5;
+    color: var(--white-color);
+    padding-left: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: 3rem 0;
+    padding-left: 70px;
   }  
+  .footer__list {
+    text-align: center;
+  }
+  .ulbouton {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-left: 350px;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -459,5 +512,4 @@ li {
   .gallery {
     display: flex;
   }
-
 }
