@@ -358,23 +358,14 @@ li {
 .footer__item:hover {
   color: var(--white-color) !important;
 }
-.ulbouton {
+.logo__svg {
   display: flex;
   justify-content: space-between;
   width: 30%;
-  padding-left: 600px;
+  padding-left: 1000px;
 }
-.facebook{
+.logo__RS{
   padding-right: 30px;
-}
-.intagram {
-  padding-right: 30px;
-}
-.twitter {
-  padding-right: 30px;
-}
-.pinterest {
-  padding-right: 30ox;
 }
 
 
@@ -407,10 +398,13 @@ li {
   .about {
     flex-direction: column-reverse;
   }
-  #about {
+  .about--column {
     flex-direction: column;
   }
-  #expertise__container {
+  .description__container {
+    text-align: center;
+  }
+  .expertise--column{
     flex-direction: column;
   }
   .expertise--bg-apple {
@@ -427,7 +421,7 @@ li {
     background-size: cover;
   }
   .expertise__description {
-    padding-top: 25rem;
+    padding-top: 20rem;
   }
   .about__description {
     text-align: center;
@@ -467,7 +461,7 @@ li {
     margin: 3rem 0;
     padding-right: 190px;
   } 
-  .ulbouton {
+  .logo__svg {
     display: flex;
     justify-content: space-between;
     width: 20%;
@@ -479,6 +473,10 @@ li {
 @media screen and (max-width: 850px) {
   .expertise__description {
     padding-top: 50rem;
+    padding-bottom: 10rem;
+  }
+  .expertise__text {
+    font-size: 2rem;
   }
 .testimonies__container {
   text-align: center;
@@ -505,25 +503,16 @@ li {
   .footer__list {
     text-align: center;
   }
-  .ulbouton {
+  .logo__svg {
+    
+
     display: flex;
     justify-content: space-between;
     width: 20%;
-    padding-left: 350px;
-    text-align: center;
+    padding-left: 280px;
 
   }
-  .facebook{
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-  .intagram {
-    padding-right: 30px;
-  }
-  .twitter {
-    padding-right: 30px;
-  }
-  .pinterest {
+  .logo__RS{
     padding-right: 30px;
   }
 
@@ -573,10 +562,10 @@ li {
   .about {
     flex-direction: column-reverse;
   }
-  #about {
+  .about--column {
     flex-direction: column;
   }
-  #expertise__container {
+  .expertise--column {
     flex-direction: column;
   }
   .expertise--bg-apple {
@@ -593,7 +582,11 @@ li {
     background-size: cover;
   }
   .expertise__description {
-    padding-top: 25rem;
+    padding-top: 20rem;
+    padding-bottom: 5rem;
+  }
+  .expertise__text {
+    font-size: 1rem;
   }
   .about__description {
     text-align: center;
@@ -631,24 +624,15 @@ li {
     margin-bottom: 3rem;
     text-align: center;
     margin: 3rem 0;
-    padding-right: 1000px;
   } 
-  .ulbouton {
+  .logo__svg {
     display: flex;
     justify-content: space-between;
     width: 20%;
     padding-left: 100px;
+
   } 
-  .facebook{
+  .logo__RS{
     padding-right: 30px;
-  }
-  .intagram {
-    padding-right: 30px;
-  }
-  .twitter {
-    padding-right: 30px;
-  }
-  .pinterest {
-    padding-right: 30ox;
   }
  }
